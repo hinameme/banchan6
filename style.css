@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 100%;
+    width: 1920px;
+    background-color: #E2E2E2;
+
+}
+
+
+header{
+    background-color:#F5F0F0 ;
+    color:#707070;
+    text-align: center;
+    display: flex;
+    height: 200px;
+    width: 1920px;
+}
+
+header h2{
+    font-size: 4.3em;
+    margin-left: 141px;
+    margin-top: 55px;
+    margin-right: 89px;
+}
+
+header nav{
+    display: flex;
+}
+header ul{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    font-size: 2.1em;
+    margin-top: 86px;
+}
+
+header ul li{
+    padding-right: 89px;
+}
+header p{
+    font-size: 4.3em;
+    background-color: #000000;
+    color:#FFFFFF ;
+    padding: 65px;
+    margin-left: 250px;
+}
+
+
+main img{
+    width: 1920px;
+    height: 881px;
+}
+
+
+
+
+
+#news{
+    color:#000000 ;
+    margin-left: 279px;
+}
+#news h2{
+    font-size: 3.1em;
+    margin-top: 168px;
+}
+#news p{
+    font-size: 1.5em;
+}
+#news hr{
+    margin-top: 31.5px;
+    margin-bottom: 79.5px;
+}
+
+
+#news02{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+#news02 ul{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.8em;
+    margin-bottom: 74px;
+   
+}
+#news02 ul li{
+    display: flex;
+   
+   
+}
+#news02 ul li p{
+    font-size: 1.5em;
+    background-color: #000000;
+    color:#FFFFFF;
+    margin-left: 14px;
+    width: 139px;
+    height: 46px;
+    padding: 1px 32px 9px 32px;
+    text-align: center;
+}
+#news02 ul li:last-child{
+    padding-top: 50px;
+}
+#news02 .newsbox1{
+    border-right: 1px solid #000000;
+    padding-right: 31.5px;
+    margin-left: 260px;
+}
+#news02 .newsbox2{
+    margin-left: 29.5px;
+    border-right: 1px solid #000000;
+    padding-right: 29.5px;
+}
+
+
+
+
+
+#about{
+    display: flex;
+
+}
+#about img{
+    width: 1183px;
+    height: 458px;
+}
+#about .abouttext{
+    margin-top: 283px;
+    margin-left: 112px;
+}
+.abouttext h2{
+    font-size: 3.1em;
+    margin-bottom: 18px;
+}
+.abouttext p{
+    font-size: 1.5em;
+    margin-right: 132px;
+}
+.abouttext hr{
+    margin-top: 33.5px;
+    margin-bottom: 74.5px;
+
+}
+
+
+#business{
+    margin-left: 279px;
+    margin-top: 110px;
+}
+#business h2{
+    font-size: 3.1em;
+    margin-bottom: 15px;
+}
+#business p{
+    font-size: 1.5em;
+    margin-bottom: 26.5px;
+}
+
+/*------------------*/
+#box01{
+    display: flex;
+}
+
+.web {
+    margin-top: 217.5px;
+    margin-left: 409px;
+    margin-right: 101px;
+}
+.web p{
+    font-size: 1.8em;
+    margin-bottom: 2px;
+}
+.prom{
+    margin-top: 104.5px;
+}
+.prom p{
+    font-size: 1.8em;
+    margin-bottom: 2px;
+}
+
+/*--------------------------*/
+
+#box02{
+    display: flex;
+}
+.int{
+    margin-top: 183px;
+    margin-left: 409px;
+    margin-right: 101px;
+}
+.int p{
+    font-size: 1.8em;
+    margin-bottom: 2px;
+}
+.social{
+    margin-top: 78px;
+}
+.social p{
+    font-size: 1.8em;
+    margin-bottom: 2px;
+}
+
+
+/*-----------------------------*/
+.comtext{
+    position: relative;
+    width: 877px;
+    height: 968px;
+    background: #FFFFFF;
+    margin-top: 253px;
+    margin-left: 279px;
+    
+    text-decoration: none;
+    padding-left: 77px;
+    margin-bottom: 313px;
+}
+.comtext img{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    width: 864px;
+    height: 709px;
+}
+.comtext h2{
+    font-size: 3.1em;
+    padding-top: 82px;
+    padding-bottom: 59px;
+}
+.comtext p{
+    font-size: 1.5em;
+    padding-bottom: 31.5px;
+}
+.comtext hr{
+    margin-bottom: 93.5px;
+}
+.comtext ul{
+    list-style: none;
+    font-size: 1.5em;
+}
+.compbox01 li{
+    padding-bottom: 51px;
+}
+.compbox01 li:last-child{
+    padding-bottom: 26px;
+}
+
+.compbox02 li{
+    padding-bottom: 19px;
+    height: 25px;
+}
+   
+
+
+/*-----------------------*/
+footer{
+    display: flex;
+    width: 1920px;
+    height: 287px;
+    background: #FFFFFF;
+}
+footer h2{
+    font-size: 4.3em;
+    margin-left: 264px;
+    margin-bottom: 75px;
+}
+.fo-web p{
+    font-size: 1.8em;
+    margin-left: 264px;
+    margin-bottom: 49px;
+}
+.fo-web02{
+    width: 377px;
+    height: 145px;
+
+}
+.fo-web02 ul{
+    font-size: 1.2em;
+    width: 377px;
+    height: 145px;
+    margin-top: 53px;
+    margin-left: 671px;
+    margin-right: 287px;
+}
+.fo-web02 ul li{
+    list-style: none;
+}
